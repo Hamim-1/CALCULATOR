@@ -29,9 +29,12 @@ body{
     color: #3f92f1;
     cursor: pointer;
     background: transparent;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2),-8px -8px 15px rgba(255, 255, 255, .1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2),-4px -4px 15px rgba(255, 255, 255, .1);
     border-radius: 10px;
     margin: 10px;
+    border-width:0 2.5px 2.5px 0; 
+    border-width:  solid; 
+    border-color:  #083a52;
 }
 .display{
     display: flex;
@@ -47,7 +50,7 @@ body{
     box-shadow:none !important;
     padding: 50px 0;
     outline: none;
-    border: 2px solid rgba(255, 255, 255, .25);
+    border: 2px solid rgba(255, 255, 255, .25) !important;
 
 }
 .display input::selection{
